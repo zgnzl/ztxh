@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/zgcss")
+    @Scripts.Render("~/bundles/jquery")
+    <script type="text/javascript">
+        var app = '@Request.ApplicationPath';
+        if (app.charAt(app.length - 1) == '/') app = app.substr(0, app.length - 1);
+    </script>
+</head>
+<body>
+    @Html.Partial("~/views/company/headerpartial.cshtml")
+    <div>
+        @RenderBody()
+    </div>
+    @Html.Partial("~/views/company/footerpartial.cshtml")
+</body>
+</html>
