@@ -149,6 +149,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CompanyController.cs" />
+    <Compile Include="Controllers\FinishController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -158,6 +159,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\finish\base.css" />
     <Content Include="Content\zgbass.css" />
     <Content Include="Content\zgtheam.css" />
     <Content Include="favicon.ico" />
@@ -174,6 +176,52 @@
     <Content Include="Images\69zg\AD0In8v4BRACGAAgxKSdwwUohvjEvQQw1gQ4jgI.jpg" />
     <Content Include="Images\69zg\AD0In8v4BRACGAAg_ZudwwUo0Y6V9AcwvAI48AE.jpg" />
     <Content Include="Images\69zg\AD0In8v4BRAEGAAgkZucwwUogujMhgQw6gI4ugE.png" />
+    <Content Include="Images\finish\0001_hfob.png" />
+    <Content Include="Images\finish\0002_ctn7.png" />
+    <Content Include="Images\finish\0003_y3bk.png" />
+    <Content Include="Images\finish\0004_mce3.png" />
+    <Content Include="Images\finish\0yr2.png" />
+    <Content Include="Images\finish\1234_v589.jpg" />
+    <Content Include="Images\finish\19hc.jpg" />
+    <Content Include="Images\finish\1_w1a6.jpg" />
+    <Content Include="Images\finish\2010112313749857_r9g2.jpg" />
+    <Content Include="Images\finish\20150227074306372_easyicon_net_64_kg6x.png" />
+    <Content Include="Images\finish\20150227074406782_easyicon_net_64_r8s8.png" />
+    <Content Include="Images\finish\20150227074442666_easyicon_net_64_fbyz.png" />
+    <Content Include="Images\finish\20150227074447631_easyicon_net_64_ewou.png" />
+    <Content Include="Images\finish\30adcbef76094b36f0a738e5a0cc7cd98d109d84_czwo.jpg" />
+    <Content Include="Images\finish\3wan.png" />
+    <Content Include="Images\finish\7ey3.png" />
+    <Content Include="Images\finish\7mpz.png" />
+    <Content Include="Images\finish\8zxr.png" />
+    <Content Include="Images\finish\92f7.png" />
+    <Content Include="Images\finish\a.js" />
+    <Content Include="Images\finish\about1_25pm.jpg" />
+    <Content Include="Images\finish\bnrp.png" />
+    <Content Include="Images\finish\cafc.png" />
+    <Content Include="Images\finish\contact_27_iw34_zghn.png" />
+    <Content Include="Images\finish\csry.png" />
+    <Content Include="Images\finish\default.css" />
+    <Content Include="Images\finish\fangx_u2d3.png" />
+    <Content Include="Images\finish\fd039245d688d43f577958f57e1ed21b0ff43be1_x7i3.jpg" />
+    <Content Include="Images\finish\header_logo_pqso.png" />
+    <Content Include="Images\finish\html5zoo.js" />
+    <Content Include="Images\finish\i1oe.jpg" />
+    <Content Include="Images\finish\i943.png" />
+    <Content Include="Images\finish\init.js" />
+    <Content Include="Images\finish\init_002.js" />
+    <Content Include="Images\finish\jjj_90ou.png" />
+    <Content Include="Images\finish\logofooter_dw3p.png" />
+    <Content Include="Images\finish\logo_87z8.png" />
+    <Content Include="Images\finish\l_50480326ca59d_4ijh.jpg" />
+    <Content Include="Images\finish\l_50654e0a6da9b_ym1j.jpg" />
+    <Content Include="Images\finish\media.css" />
+    <Content Include="Images\finish\overall.js" />
+    <Content Include="Images\finish\pc83.png" />
+    <Content Include="Images\finish\shopping_cart.css" />
+    <Content Include="Images\finish\shwm.png" />
+    <Content Include="Images\finish\title.css" />
+    <Content Include="Images\finish\unslider.css" />
     <Content Include="Scripts\69zg\site.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -218,6 +266,7 @@
     <Content Include="Views\Company\ProductServicePartial.cshtml" />
     <Content Include="Views\Company\MessageBoardPartial.cshtml" />
     <Content Include="Views\Company\IndexPartial.cshtml" />
+    <Content Include="Views\Finish\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
