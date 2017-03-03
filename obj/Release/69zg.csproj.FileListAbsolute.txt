@@ -59,3 +59,4 @@ E:\TeamFondationServers\69zg\69zg\obj\Release\69zg.dll
 E:\TeamFondationServers\69zg\69zg\obj\Release\69zg.pdb
 E:\TeamFondationServers\69zg\69zg\bin\69zg.Common.dll
 E:\TeamFondationServers\69zg\69zg\bin\69zg.Common.pdb
+E:\TeamFondationServers\69zg\69zg\obj\Release\69zg.csprojResolveAssemblyReference.cache

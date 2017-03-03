@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _69zg.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,15 @@ namespace _69zg.Controllers
         // GET: TAHBOA
         public ActionResult Index()
         {
+            Users users = Session["currentuser"] as Users;
+            if (users != null)
+            {
+                ViewBag.username = users.Uname;
+            }
+            else
+            {
+                ViewBag.username = "游客";
+            }
             return View();
         }
     }

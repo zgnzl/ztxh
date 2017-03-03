@@ -1,4 +1,5 @@
 ﻿using _69zg.Common;
+using _69zg.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +29,22 @@ namespace _69zg.Controllers
             {
                 flag = "FAILED";
             }
+            else
+            {
+                Users users = new Users();
+                users.Uid = DateTime.Now.ToBinary().ToString();
+                users.Uname = name;
+                users.Ulogdate = DateTime.Now;
+                Session["currentuser"] = users;
+            }
             string []jsonresul = { flag, url };
             return Json(jsonresul,JsonRequestBehavior.DenyGet);
+        }
+
+        public JsonResult Logout()
+        {
+            Session.Remove("currentuser");
+            return null;
         }
     }
 }
