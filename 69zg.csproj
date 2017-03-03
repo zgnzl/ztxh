@@ -44,6 +44,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="69zg.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\69zg.Common\bin\Release\69zg.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -151,6 +155,8 @@
     <Compile Include="Controllers\CompanyController.cs" />
     <Compile Include="Controllers\FinishController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\TAHBOAController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -176,6 +182,8 @@
     <Content Include="Images\69zg\AD0In8v4BRACGAAgxKSdwwUohvjEvQQw1gQ4jgI.jpg" />
     <Content Include="Images\69zg\AD0In8v4BRACGAAg_ZudwwUo0Y6V9AcwvAI48AE.jpg" />
     <Content Include="Images\69zg\AD0In8v4BRAEGAAgkZucwwUogujMhgQw6gI4ugE.png" />
+    <Content Include="Images\bg\logBG.jpg" />
+    <Content Include="Images\bg\Vricatybg.png" />
     <Content Include="Images\finish\0001_hfob.png" />
     <Content Include="Images\finish\0002_ctn7.png" />
     <Content Include="Images\finish\0003_y3bk.png" />
@@ -230,6 +238,7 @@
     </Content>
     <None Include="Properties\PublishProfiles\69zg.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\common.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -267,6 +276,12 @@
     <Content Include="Views\Company\MessageBoardPartial.cshtml" />
     <Content Include="Views\Company\IndexPartial.cshtml" />
     <Content Include="Views\Finish\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutTAHBOA.cshtml" />
+    <Content Include="Views\Shared\_PartialCommon.cshtml" />
+    <Content Include="Views\TAHBOA\Index.cshtml" />
+    <Content Include="Views\TAHBOA\headerpartial.cshtml" />
+    <Content Include="Views\TAHBOA\footerpartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

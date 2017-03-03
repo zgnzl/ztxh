@@ -12,6 +12,9 @@
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <NameOfLastUsedPublishProfile>69zg</NameOfLastUsedPublishProfile>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>E:\TeamFondationServers\69zg\69zg.Common\bin\Release\</ReferencePath>
+  </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">

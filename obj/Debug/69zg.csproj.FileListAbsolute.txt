@@ -55,6 +55,6 @@ E:\TeamFondationServers\69zg\69zg\bin\zh-Hans\System.Web.Razor.resources.dll
 E:\TeamFondationServers\69zg\69zg\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\TeamFondationServers\69zg\69zg\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\TeamFondationServers\69zg\69zg\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\TeamFondationServers\69zg\69zg\obj\Debug\69zg.csprojResolveAssemblyReference.cache
 E:\TeamFondationServers\69zg\69zg\obj\Debug\69zg.dll
 E:\TeamFondationServers\69zg\69zg\obj\Debug\69zg.pdb
-E:\TeamFondationServers\69zg\69zg\obj\Debug\69zg.csprojResolveAssemblyReference.cache

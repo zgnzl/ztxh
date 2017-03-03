@@ -1,16 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
     <meta name="keywords" content="北京中泰祥和科技有限公司,云桌面,虚拟化,远程管理,高校,电子元器件,硬盘保护" />
     <meta name="description" content="北京中泰祥和科技有限公司专门为机房提供云桌面,虚拟化,远程管理,高校,电子元器件,硬盘保护" />
-    <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/zgcss")
-    @Scripts.Render("~/bundles/jquery")
-    <script type="text/javascript">
-        var app = '@Request.ApplicationPath';
-        if (app.charAt(app.length - 1) == '/') app = app.substr(0, app.length - 1);
-    </script>
+    @Html.Partial("~/views/shared/_PartialCommon.cshtml")
 </head>
 <body>
     @Html.Partial("~/views/company/headerpartial.cshtml")
